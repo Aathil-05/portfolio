@@ -1,0 +1,177 @@
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: #222831;
+}
+
+.container{
+    width: 100%;
+    background-color: #222831;
+}
+
+.container header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    padding-top: 10px;
+}
+
+header .logo {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+header .logo .dot {
+    color: #4932a5;
+    display: inline;
+    font-size: 35px;
+    padding: 0 3px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 0 7px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    cursor:pointer;
+    transition: all ease-in 0.2s;
+}
+
+header nav ul li a:hover {
+    color: #4932a5;
+}
+
+.call {
+    background-color: #4932a5;
+    border-radius: 50%;
+    padding: 8px 10px;
+}
+
+.call i {
+    color: #ffffff;
+}
+
+.call:hover {
+    color: white;
+}
+
+.main {
+    width: 100%;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .part-1 {
+    width: 60%;
+    height: 60%;
+    color: #ffffff;
+}
+
+.main .part-2 {
+    width: 50%;
+    height: 80vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-1 h2 {
+    font-size: 60px;
+}
+
+.part-1 h4 {
+    font-size: 40px;
+    color: #4932a5;
+}
+
+.part-1 p {
+    font-size: 15px;
+    width: 85%;
+    margin-top: 20px;
+}
+
+.part-1 .social-links {
+    margin: 20px 0;
+}
+
+.part-1 .social-links a i {
+    font-size: 18px;
+    padding: 8px 8px;
+    box-shadow: 1px 1px 2px #4932a5, -1px -1px 2px #00d1ce60;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid #4932a5;
+    color: white;
+}
+
+.part-1 button {
+    background-color: #4932a5;
+    box-shadow: 1px 1px 4px #4932a5, -1px -1px 6px #4932a5;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 20px;
+    margin-top: 1rem;
+}
+
+.part-1 button a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.projects {
+    width: 100%;
+    padding: 4rem;
+    justify-content: center;
+}
+
+.projects h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.projects .swiper {
+    width: 100%;
+    margin: 50px 70px;
+}
+
+.swiper img {
+    width: 300px;
+    height: 400px;
+}
